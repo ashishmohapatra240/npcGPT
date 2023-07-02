@@ -22,31 +22,20 @@ You can create new conversation files or modify existing ones to customize the i
 
 To use the ChatGPT model and enable conversations between the user and the game character, follow these steps:
 
-1. Clone the repository to your local machine:
+Go to https://npcgpt.onrender.com/generate-response
 
-```
-git clone https://github.com/ashishmohapatra240/npcGPT
-```
-
-
-2. Navigate to the cloned repository.
-
-```cd npcGPT```
-
-3. Install the required dependencies
-
-4. Set your OpenAI API key in .env file
-
-5. Run the api, and then then write a json payload in the format:
-
-
-`
-{
+1. Open the Postman on your computer.
+2. Create a new request: Click on the "New" button in the top-left corner of the Postman window, then select "Request" from the dropdown menu.
+3. Set the request method and URL: In the newly created request tab, select the HTTP method as "POST" and enter the API endpoint URL provided, which is "https://npcgpt.onrender.com/generate-response".
+4. Set the request headers: Click on the "Headers" tab below the URL field and add a new header with the key "Content-Type" and the value "application/json".
+5. Set the request body: Click on the "Body" tab below the URL field, select the "Raw" radio button, and choose "JSON" from the dropdown menu.
+6. Enter the request payload: Copy the JSON payload provided into the request body. In this case, the payload should be: `{
   "question": "Where is Nux?"
 }
 `
-
-5. The output will be generated and returned
+7. Send the request: Click on the "Send" button located on the right side of the request URL field. Postman will send the request to the API endpoint.
+8. Receive the response: The API will process the request and return a response. Postman will display the response in the main area of the application.
+   
 
 ![1](https://github.com/ashishmohapatra240/npcGPT/assets/78657461/49757a3e-b500-4ff1-80b4-b8f318aeec2d)
 ![2](https://github.com/ashishmohapatra240/npcGPT/assets/78657461/60d15f18-8631-4cec-b451-61604f2878a0)

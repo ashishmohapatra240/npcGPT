@@ -35,6 +35,10 @@ app.post('/generate-response', async (req, res) => {
     }
 });
 
+app.get("/", async function (req, res) {
+    res.send("Reached home!");
+});
+
 app.listen(3000, () => {
     console.log('API server is running on port 3000');
 });

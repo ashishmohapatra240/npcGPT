@@ -29,12 +29,15 @@ Go to https://npcgpt.onrender.com/generate-response
 3. Set the request method and URL: In the newly created request tab, select the HTTP method as "POST" and enter the API endpoint URL provided, which is "https://npcgpt.onrender.com/generate-response".
 4. Set the request headers: Click on the "Headers" tab below the URL field and add a new header with the key "Content-Type" and the value "application/json".
 5. Set the request body: Click on the "Body" tab below the URL field, select the "Raw" radio button, and choose "JSON" from the dropdown menu.
-6. Enter the request payload: Copy the JSON payload provided into the request body. In this case, the payload should be: `{
+6. Enter the request payload in this format, feel free to ask your own question:
+`{
   "question": "Where is Nux?"
 }
 `
 7. Send the request: Click on the "Send" button located on the right side of the request URL field. Postman will send the request to the API endpoint.
 8. Receive the response: The API will process the request and return a response. Postman will display the response in the main area of the application.
+
+It will answer as Chumbucket from the game Mad Max. Ask things that are related to the game such as Wastelands, Scraps, and Jeet Territory to have better results.
    
 
 ![1](https://github.com/ashishmohapatra240/npcGPT/assets/78657461/49757a3e-b500-4ff1-80b4-b8f318aeec2d)

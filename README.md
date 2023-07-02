@@ -1,4 +1,4 @@
-# npGPT - Game Character Conversations
+# npGPT - Game Character Conversations (AI-Track)
 
 This repository contains a ChatGPT model, 'npcGPT', that generates real-life conversations between the user and a game character. By leveraging prompt engineering techniques and variables, the model enhances the gaming experience by providing interactive and immersive dialogues. We use an example, Chumbucket  and Max are the characters of Mad Max where Max is the user and Chumbucket answers to all the queries and responses for a real end experience as the AI.
 
